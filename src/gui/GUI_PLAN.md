@@ -74,14 +74,22 @@ src/gui/
         [themes.py]         Maybe a theme system
 ```
 
+# Module Layout v2
+
+```bash
+src/gui/
+        gui.py              Where everything will merge
+        [themes.py]         Maybe a theme system
+```
+
 # Roadmap
 
-- [ ] Implement the layout.
-- [ ] Implement the event handler.
+- [ ] Implement the gui.
 
 # To-Do
 
-- [ ] Add a text widget to show raw text.
+- [ ] Change raw from being an Entry to be somthing that hold more tha one \
+      line.
 - [ ] Add the file opening widget.
-- [ ] Add the html rendering widget to view the content in html.
-- [ ] Add the switcher widget to switch between raw, view and both.
+- [ ] Manage the layouts better.
+- [ ] Glue the GUI and the file_manager togrther.

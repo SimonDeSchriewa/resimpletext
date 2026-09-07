@@ -64,5 +64,6 @@ main.py
 
 ## To-Do
 
-- [ ] Set up git for this project with local settings.
-- [ ] Implement the GUI (see src/gui/GUI_PLAN.md).
+- [X] Set up git for this project with local settings.
+- [ ] Implement the GUI (see src/gui/GUI_PLAN.md). (partially)
+- [ ] Glue the GUI and the file_manager togrther.
